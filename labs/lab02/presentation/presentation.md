@@ -259,7 +259,7 @@ puts $f \n\"Srednee_ocheredi"
 exec cat temp.a >@ $f
 close $f
 # Запуск xgraph с графиками окна TCP и очереди:
-exec xgraph -color 5 -fg white -bg black -bb -tk -x  vremya -t 
+exec xgraph -fg white -bg black -bb -tk -x  vremya -t 
                    "TCPRenoCWND" WindowVsTimeReno &
 exec xgraph -fg white -bg black -bb -tk -x  vremya -y ochered 
                                              temp.queue &
